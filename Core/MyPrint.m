@@ -11,6 +11,7 @@
 
 + (void)testPrint:(const char *)string{
     NSLog(@"%@", [NSString stringWithUTF8String:string]);
+    printf("\n");
 }
 
 @end
